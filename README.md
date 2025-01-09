@@ -27,30 +27,30 @@ Se debe crear un usuario de tipo administrador, el cual tendrá privilegios espe
 ## Estructura de las carpetas
 
 CRUD-DE-Alojamientos  
-│
-├─/assets # Archivos estáticos (imágenes, CSS, JS personalizados)
-│ ├─/css # Archivos CSS personalizados
-│ │ └── styles.css # Estilos globales
-│ ├──/img # Imágenes utilizadas en el proyecto
-│ └──/js # Archivos JS personalizados (si es necesario)
-│ └── script.js # Script JavaScript global
-│
-├─/components # Componentes reutilizables del frontend
-│ ├── navbar.php # Barra de navegación
-│ ├── card.php # Componente de tarjeta
-│ └── footer.php # Pie de página
-│
-├─/includes # Archivos PHP para lógica compartida (funciones, configuración)
-│ └── config.php # Configuración global (conexión a la base de datos, etc.)
-│
-├─/pages # Páginas específicas del sitio
-│ ├── index.php # Página de inicio
-│ ├── alojamiento.php # Página de detalles de alojamiento
-│ └── regiatroUsuarios.php # Página para registro de usuarios
-│
-├─/templates # Plantillas generales (estructura común de la página)
-│ ├── footer.php # Pie de página general
-│ ├── header.php # Encabezado general
-│ └── layout.php # Estructura base de la página (header + contenido + footer)
-│
+│  
+├─/assets # Archivos estáticos (imágenes, CSS, JS personalizados)  
+│ ├─/css # Archivos CSS personalizados  
+│ │ └── styles.css # Estilos globales  
+│ ├──/img # Imágenes utilizadas en el proyecto  
+│ └──/js # Archivos JS personalizados (si es necesario)  
+│ └── script.js # Script JavaScript global  
+│  
+├─/components # Componentes reutilizables del frontend  
+│ ├── navbar.php # Barra de navegación  
+│ ├── card.php # Componente de tarjeta  
+│ └── footer.php # Pie de página  
+│  
+├─/includes # Archivos PHP para lógica compartida (funciones, configuración)  
+│ └── config.php # Configuración global (conexión a la base de datos, etc.)  
+│  
+├─/pages # Páginas específicas del sitio  
+│ ├── index.php # Página de inicio  
+│ ├── alojamiento.php # Página de detalles de alojamiento  
+│ └── regiatroUsuarios.php # Página para registro de usuarios  
+│  
+├─/templates # Plantillas generales (estructura común de la página)  
+│ ├── footer.php # Pie de página general  
+│ ├── header.php # Encabezado general  
+│ └── layout.php # Estructura base de la página (header + contenido + footer)  
+│  
 └── index.php # Archivo principal de entrada para la aplicación
