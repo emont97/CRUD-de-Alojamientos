@@ -1,7 +1,10 @@
 <?php
 
+#############
+## env.php ##
+#############
 //funcion para cargar las variables del archivo .env
-function loadEnv($filePath)
+/* function loadEnv($filePath)
 {
     if (!file_exists($filePath)) {
         die("El archivo .env no existe.");
@@ -20,13 +23,18 @@ function loadEnv($filePath)
             putenv("$key=$value"); // Cargar la variable al entorno
         }
     }
-}
+} 
 
 // Cargar las variables desde el archivo .env
-loadEnv(__DIR__ . '/.env');
+loadEnv(__DIR__ . './includes/.env');
+*/
 
+
+###########
+## db.php##
+###########
 // Acceder a las variables
-$host = getenv('DB_HOST');
+/* $host = getenv('DB_HOST');
 $port = getenv('DB_PORT'); // Nueva variable para el puerto
 $dbname = getenv('DB_NAME');
 $username = getenv('DB_USER');
@@ -41,12 +49,28 @@ try {
 
 } catch (PDOException $e) {
     die("Error de conexión: " . $e->getMessage());
-}
+} */
+
+
+
+###########################
+## consulta alojamiento ##
+#########################
+
+// Incluir configuración, base de datos y consulta de alojamientos
 // Consulta de alojamientos
-$query = "SELECT * FROM alojamientos";
+/* $query = "SELECT * FROM alojamientos";
 $stmt = $pdo->query($query);
 $alojamientos = $stmt->fetchAll(PDO::FETCH_ASSOC);
+ */
+
+
+
+require_once 'includes/consulta_alojamientos.php';
+/* require_once 'includes/header.php'; */
 ?>
+
+
 
 <!DOCTYPE html>
 <html lang="es">
