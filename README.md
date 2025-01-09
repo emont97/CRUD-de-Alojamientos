@@ -26,7 +26,7 @@ Se debe crear un usuario de tipo administrador, el cual tendrá privilegios espe
 
 ## Estructura de las carpetas
 
-CRUD-DE-Alojamientos
+CRUD-DE-Alojamientos  
 │
 ├─/assets # Archivos estáticos (imágenes, CSS, JS personalizados)
 │ ├─/css # Archivos CSS personalizados
