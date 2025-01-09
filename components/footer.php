@@ -67,8 +67,8 @@
             <div class="footer-section">
                 <h3>Contacto</h3>
                 <p>Email: contacto@alojamientos.com</p>
-                <p>Teléfono: +34 123 456 789</p>
-                <p>Dirección: Calle Ejemplo 123, Madrid</p>
+                <p>Teléfono: +503 8955-745</p>
+                <p>Dirección: Calle Ejemplo 123, San Salvador</p>
             </div>
         </div>
         <div class="footer-bottom">
