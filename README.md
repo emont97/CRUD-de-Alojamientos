@@ -31,26 +31,25 @@ CRUD-DE-Alojamientos
 ├─/assets # Archivos estáticos (imágenes, CSS, JS personalizados)  
 │ ├─/css # Archivos CSS personalizados  
 │ │ └── styles.css # Estilos globales  
-│ ├──/img # Imágenes utilizadas en el proyecto  
-│ └──/js # Archivos JS personalizados (si es necesario)  
-│ └── script.js # Script JavaScript global  
+│ ├──/img  
+│ └──/js  
 │  
 ├─/components # Componentes reutilizables del frontend  
 │ ├── navbar.php # Barra de navegación  
-│ ├── card.php # Componente de tarjeta  
+│ ├── cardAlojamiento.php # Tarjeta para mostrar los alojamientos de la base de datos  
 │ └── footer.php # Pie de página  
 │  
 ├─/includes # Archivos PHP para lógica compartida (funciones, configuración)  
-│ └── config.php # Configuración global (conexión a la base de datos, etc.)  
+│ └── config.php
 │  
 ├─/pages # Páginas específicas del sitio  
-│ ├── index.php # Página de inicio  
-│ ├── alojamiento.php # Página de detalles de alojamiento  
-│ └── regiatroUsuarios.php # Página para registro de usuarios  
+│ ├── index.php  
+│ ├── alojamiento.php
+│ └── regiatroUsuarios.php
 │  
 ├─/templates # Plantillas generales (estructura común de la página)  
-│ ├── footer.php # Pie de página general  
-│ ├── header.php # Encabezado general  
-│ └── layout.php # Estructura base de la página (header + contenido + footer)  
+│ ├── footer.php # Inicia con la etiqueta </body cerrada> e incluye el componente footer y bootstrap link  
+│ ├── header.php # Termina con la etiqueta <body abierta> e incluye Navbar, bootstrap, y header de HTML
+│ └── layout.php  
 │  
-└── index.php # Archivo principal de entrada para la aplicación
+└── index.php # Landing Page
