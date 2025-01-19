@@ -1,5 +1,12 @@
 # CRUD-de-Alojamientos
 
+#Credenciales de la base de datos
+1. User: root
+2. password: lgLiObsvWTjVqHecgXwguSDTaXuiIEsU
+3. Host: autorack.proxy.rlwy.net
+4. port: 53053
+5. nombre: railway
+
 Este proyecto consiste en desarrollar una aplicación web que permita gestionar alojamientos mediante operaciones CRUD (Crear, Leer, Actualizar y Eliminar) en una base de datos MySQL utilizando PHP. Incluye funcionalidades como: gestión personalizada desde una vista de cuenta y administrador.
 
 ## Requisitos:
