@@ -6,6 +6,14 @@
 3. Host: autorack.proxy.rlwy.net
 4. port: 53053
 5. nombre: railway
+ 
+#Crear un archivo .env dentro de includes y colocar estas credenciales para que funcione el sistema
+
+DB_HOST=autorack.proxy.rlwy.net
+DB_PORT=53053
+DB_NAME=railway
+DB_USER=root
+DB_PASSWORD=lgLiObsvWTjVqHecgXwguSDTaXuiIEsU
 
 Este proyecto consiste en desarrollar una aplicación web que permita gestionar alojamientos mediante operaciones CRUD (Crear, Leer, Actualizar y Eliminar) en una base de datos MySQL utilizando PHP. Incluye funcionalidades como: gestión personalizada desde una vista de cuenta y administrador.
 
